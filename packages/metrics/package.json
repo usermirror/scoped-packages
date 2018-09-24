@@ -1,6 +1,6 @@
 {
   "name": "@usermirror/metrics",
-  "version": "0.1.4",
+  "version": "0.1.10",
   "description": "Simple metrics library for prometheus",
   "main": "index.js",
   "scripts": {

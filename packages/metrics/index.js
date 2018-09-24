@@ -1,3 +1,1 @@
-const prometheus = require('./lib/prometheus')
-
-module.exports = prometheus
+module.exports = require('./lib/metrics')

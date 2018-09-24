@@ -1,6 +1,6 @@
 {
   "name": "@usermirror/log",
-  "version": "0.1.7",
+  "version": "0.1.10",
   "description": "Logging utility for UserMirror services",
   "main": "index.js",
   "dependencies": {

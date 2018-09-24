@@ -29,10 +29,11 @@ const logger = createLogger({
 })
 
 logger.request = (req, res) => {
-  logger.info(`${req.url} endpoint hit`, {
+  const url = [req.baseUrl, req.url].filter(Boolean).join('')
+  logger.info(`${url} endpoint hit`, {
     httpRequest: {
       status: res.statusCode,
-      requestUrl: req.url,
+      requestUrl: url,
       requestMethod: req.method,
       remoteIp: req.connection.remoteAddress
     }
