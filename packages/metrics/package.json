@@ -1,0 +1,22 @@
+{
+  "name": "@usermirror/metrics",
+  "version": "0.1.4",
+  "description": "Simple metrics library for prometheus",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usermirror/scoped-packages.git"
+  },
+  "author": "UserMirror, Inc. <open@usermirror.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/usermirror/scoped-packages/issues"
+  },
+  "homepage": "https://github.com/usermirror/scoped-packages#readme",
+  "dependencies": {
+    "prom-client": "^11.1.3"
+  }
+}

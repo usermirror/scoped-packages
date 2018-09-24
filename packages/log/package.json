@@ -1,0 +1,27 @@
+{
+  "name": "@usermirror/log",
+  "version": "0.1.7",
+  "description": "Logging utility for UserMirror services",
+  "main": "index.js",
+  "dependencies": {
+    "@google-cloud/logging-winston": "^0.9.0",
+    "on-finished": "^2.3.0",
+    "on-headers": "^1.0.1",
+    "winston": "^3.1.0",
+    "winston-transport": "^4.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usermirror/scoped-packages.git"
+  },
+  "author": "UserMirror, Inc. <open@usermirror.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/usermirror/scoped-packages/issues"
+  },
+  "homepage": "https://github.com/usermirror/scoped-packages#readme"
+}
